@@ -18,17 +18,18 @@
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
+            // the instructor answer
 // for(i = 0; i <= 100; i++ ) {
-//     if( i % 3 === 0 ); {
-//         if (i % 5 === 0) {
-//             if(i % 3 === 0 && i % 5 === 0);
-            
-//         }
-//         console.log('Fizz');
-//         console.log('Buzz');
-//         console.log('Fizz Buzz');
-
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("Fizz Buzz");
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if ( i % 5 === 0 ) {
+//         console.log("Buzz");
+//     } else {
+//         console.log(i);
 //     }
+    
 // }
 ////////////////////////////////
 // Wild Wild Life
@@ -37,6 +38,18 @@
 //     plantee.pop(5000)
 //     plantee.push(5001)
 //     console.log(Plantee)
+
+
+                // instructor answer
+    //             const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+    //             const sharky = ["Sharky", "shark", 20, "Left Coast"]
+    //             const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+    //             const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+    //             const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+                
+
+    // plantee[2] += 1 
+    // console.log(plantee[2]);
     
 //  
     // don't get this part
@@ -46,6 +59,13 @@
     // wolfy.push("Gotham City")
     // console.log(wolfy);
 
+            // instuctor answer
+    // console.log(wolfy[3]);
+    // wolfy[3] = "Gotham City"
+    // console.log(wolfy[3]);
+                // Jasons Answer
+    // wolfy.splice(3, 1, "Gotham CIty")
+    // console.log(wolfy);
     // const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
     // dart.push("Hawkins")
     // console.log(dart);
@@ -65,7 +85,14 @@
 //     toUpperCase([0])
 //     console.log();
     
-// }  
+// }
+
+
+            // Instructor Answer
+// const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo" ]
+// for (ninjaTurtle of turtles) {
+//     console.log(ninjaTurtle.toUpperCase());
+// }
 
 ////////////////////////////////
 // Methods, Revisited
@@ -110,10 +137,34 @@
 // Where is Waldo
 ////////////////////////////////
 
+                // instructor
+ const whereIsWaldo = [["Timmy", "Frank"],
+                      "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", Snoop"],
+                      ["Petnia", ["Baked Goods","Waldo"]]
+] 
+
+                console.log(whereIsWaldo[3]);
+        
+                
+
+
 
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+
+
+        // instructor 
+
+// const catQuotes = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+
+// for (let i = 0; i < 20; i++) {
+//     console.log("Love me,  pet me! HSSSSS");
+//     if ( i % 2 === 0 )
+//         console.log(catQuotes[Math.floor(Math.random()*3)]);
+// }
+
 
 
 ////////////////////////////////
